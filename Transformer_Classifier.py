@@ -1,9 +1,8 @@
 import tensorflow as tf
-from tensorflow import keras
-from tensorflow.keras.layers import MultiHeadAttention, LayerNormalization, Dropout, Layer
-from tensorflow.keras.layers import Embedding, Input, GlobalAveragePooling1D, Dense
-from tensorflow.keras.datasets import imdb
-from tensorflow.keras.models import Sequential, Model
+from keras.layers import MultiHeadAttention, LayerNormalization, Dropout, Layer
+from keras.layers import Embedding, Input, GlobalAveragePooling1D, Dense
+from keras.datasets import imdb
+from keras.models import Sequential, Model
 import numpy as np
 import warnings
 
